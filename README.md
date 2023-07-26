@@ -58,6 +58,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Environment variables (env)
+
+```bash
+$ AWS_SECRET_ACCESS_KEY = [secret key]
+
+$ AWS_ACCESS_KEY_ID= [access id]
+
+$ AWS_S3_REGION = [region]
+
+$ ApiKey=https://[bucket name].s3.amazonaws.com
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
